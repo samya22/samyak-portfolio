@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Creative Developer</title>
+    <meta name="description" content="A premium portfolio showcasing modern web development and design.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="blob-bg"></div>
+    <div class="blob-bg blob-2"></div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-content">
+            <a href="#" class="logo">Port<span class="gradient-text">folio.</span></a>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content reveal">
+                <p class="greeting">Hi, I am Samyak Kharat</p>
+                <h1 class="hero-title">
+                    <span class="gradient-text dynamic-text">AWS Developer</span>
+                </h1>
+                <p class="hero-subtitle" style="margin-bottom: 1rem;">Passionate about building scalable cloud solutions and modern web applications
+                    using AWS, Java, and modern development tools.</p>
+                <p class="hero-tech-stack" style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 2.5rem; font-weight: 500;">Tech Stack: AWS &bull; Java &bull; Python &bull; MySQL &bull; JavaScript</p>
+                <div class="hero-cta">
+                    <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle">
+                            Resume <span class="arrow">&#9662;</span>
+                        </button>
+                        <div class="dropdown-menu">
+                            <a href="/Resume_Samyak.pdf" target="_blank" class="dropdown-item">View Resume</a>
+                            <a href="/Resume_Samyak.pdf" download="Resume_Samyak.pdf" class="dropdown-item">Download
+                                Resume</a>
+                        </div>
+                    </div>
+                    <a href="#projects" class="btn btn-secondary">View My Work</a>
+                </div>
+            </div>
+
+            <div class="hero-image-container reveal delay-1">
+                <div class="profile-img-wrapper">
+                    <img src="./public/profile.jpg" alt="Samyak Kharat" class="profile-img">
+                </div>
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+            <div class="section-header reveal">
+                <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+                <div class="line"></div>
+            </div>
+            <div class="projects-grid">
+
+                <!-- Project 3 -->
+                <article class="project-card reveal delay-2">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=800&auto=format&fit=crop"
+                            alt="Portfolio Website" class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>Portfolio Website</h3>
+                        <p style="flex-grow: 0; margin-bottom: 1rem;">A premium, dark-mode personal portfolio featuring custom CSS animations and responsive
+                            design.</p>
+                        <div class="project-features" style="margin-bottom: 1.2rem; flex-grow: 1;">
+                            <h4 style="font-size: 0.95rem; color: var(--text-primary); margin-bottom: 0.4rem;">Key Features:</h4>
+                            <ul style="list-style-type: disc; margin-left: 1.2rem; font-size: 0.9rem; color: var(--text-secondary); line-height: 1.5;">
+                                <li>Custom CSS animations & transitions</li>
+                                <li>Responsive glassmorphism UI</li>
+                                <li>Dark-themed modern aesthetic</li>
+                            </ul>
+                        </div>
+                        <div class="tech-stack-line" style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 1.5rem;">
+                            <strong>Tech Stack:</strong> HTML5 &bull; CSS3 &bull; JavaScript
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/samya22" target="_blank" class="project-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="M15 22v-4a4.8 4.8 0 0 0-1-3.2c3-.3 6-1.5 6-8.3a5.4 5.4 0 0 0-1.5-3.9 5.4 5.4 0 0 0-.1-3.8s-1.2-.4-3.9 1.4a13.3 13.3 0 0 0-7 0C6.2 1.5 5 1.9 5 1.9a5.4 5.4 0 0 0-.1 3.8A5.4 5.4 0 0 0 3 9.6c0 6.8 3 8 6 8.3a4.8 4.8 0 0 0-1 3.2v4">
+                                    </path>
+                                </svg>
+                                View Source Code
+                            </a>
+                            <a href="#" class="project-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <!-- Project 4 -->
+                <article class="project-card reveal delay-1">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1565123409695-7b5ef63a2efb?q=80&w=800&auto=format&fit=crop"
+                            alt="Online Food Truck System" class="project-img">
+                    </div>
+                    <div class="project-info">
+                        <h3>Online Food Truck System</h3>
+                        <p style="flex-grow: 0; margin-bottom: 1rem;">A comprehensive web platform for food truck management, ordering, and real-time tracking.</p>
+                        <div class="project-features" style="margin-bottom: 1.2rem; flex-grow: 1;">
+                            <h4 style="font-size: 0.95rem; color: var(--text-primary); margin-bottom: 0.4rem;">Key Features:</h4>
+                            <ul style="list-style-type: disc; margin-left: 1.2rem; font-size: 0.9rem; color: var(--text-secondary); line-height: 1.5;">
+                                <li>Real-time order tracking</li>
+                                <li>Vendor management dashboard</li>
+                                <li>Secure user authentication</li>
+                            </ul>
+                        </div>
+                        <div class="tech-stack-line" style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 1.5rem;">
+                            <strong>Tech Stack:</strong> Java &bull; MySQL &bull; HTML/CSS
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/samya22/foodvan" target="_blank" class="project-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="M15 22v-4a4.8 4.8 0 0 0-1-3.2c3-.3 6-1.5 6-8.3a5.4 5.4 0 0 0-1.5-3.9 5.4 5.4 0 0 0-.1-3.8s-1.2-.4-3.9 1.4a13.3 13.3 0 0 0-7 0C6.2 1.5 5 1.9 5 1.9a5.4 5.4 0 0 0-.1 3.8A5.4 5.4 0 0 0 3 9.6c0 6.8 3 8 6 8.3a4.8 4.8 0 0 0-1 3.2v4">
+                                    </path>
+                                </svg>
+                                View Source Code
+                            </a>
+                            <a href="#" class="project-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about-container glass-panel reveal">
+                <div class="about-text">
+                    <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+                    <p>A Computer Applications graduate with a strong interest in Data Analysis, Cloud Computing, and
+                        Web Development. Passionate about working with data and building technology-driven solutions
+                        that solve real-world problems.</p>
+                    <p>Experienced with SQL, Excel, and Power BI for data analysis and visualization, with foundational
+                        knowledge of AWS Cloud Services. Skilled in transforming raw data into meaningful insights
+                        through data analysis, dashboards, and visualization techniques.</p>
+                    <p>Also familiar with HTML, CSS, JavaScript, PHP, and MySQL, enabling the development of data-driven
+                        web applications and systems.</p>
+                    <p>Currently seeking opportunities as a Data Analyst or Cloud Support professional to apply
+                        technical skills, gain industry experience, and contribute to impactful projects.</p>
+                </div>
+                <div class="skills-section">
+                    <h2 class="section-title" style="margin-top: 2rem;">Technical <span
+                            class="gradient-text">Skills</span></h2>
+
+                    <div class="skills-grid">
+                        <div class="skill-category glass-panel">
+                            <h3>Cloud & DevOps</h3>
+                            <div class="skills-badges">
+                                <span class="skill-badge">AWS</span>
+                                <span class="skill-badge">EC2</span>
+                                <span class="skill-badge">S3</span>
+                                <span class="skill-badge">Lambda</span>
+                                <span class="skill-badge">IAM</span>
+                                <span class="skill-badge">API Gateway</span>
+                                <span class="skill-badge">CloudWatch</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-category glass-panel">
+                            <h3>Programming Languages</h3>
+                            <div class="skills-badges">
+                                <span class="skill-badge">Python</span>
+                                <span class="skill-badge">Java</span>
+                                <span class="skill-badge">JavaScript</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-category glass-panel">
+                            <h3>Backend Development</h3>
+                            <div class="skills-badges">
+                                <span class="skill-badge">Java</span>
+                                <span class="skill-badge">MySQL</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-category glass-panel">
+                            <h3>Frontend Development</h3>
+                            <div class="skills-badges">
+                                <span class="skill-badge">HTML5</span>
+                                <span class="skill-badge">CSS3</span>
+                                <span class="skill-badge">JavaScript</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-category glass-panel">
+                            <h3>Tools</h3>
+                            <div class="skills-badges">
+                                <span class="skill-badge">Git</span>
+                                <span class="skill-badge">GitHub</span>
+                                <span class="skill-badge">VS Code</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="education-experience" id="experience">
+            <div class="section-header reveal">
+                <h2 class="section-title">Experience & <span class="gradient-text">Education</span></h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="timeline-container reveal">
+                <div class="timeline-column">
+                    <h3 class="timeline-title">Experience</h3>
+
+                    <div class="timeline-item glass-panel">
+                        <div class="timeline-dot"></div>
+                        <h4>AWS & Python Developer</h4>
+                        <span class="timeline-date">Personal Projects</span>
+                        <p>Architecting cloud-native solutions, developing serverless APIs with Python and AWS Lambda,
+                            and deploying scalable infrastructure.</p>
+                    </div>
+
+                    <div class="timeline-item glass-panel">
+                        <div class="timeline-dot"></div>
+                        <h4>Founder & Owner</h4>
+                        <span class="timeline-date">Hypsoul.store</span>
+                        <p>Built and managed an exclusive sneaker brand and e-commerce platform from the ground up.</p>
+                    </div>
+
+                    <div class="timeline-item glass-panel">
+                        <div class="timeline-dot"></div>
+                        <h4>Freelance Web Developer</h4>
+                        <span class="timeline-date">Independent Projects</span>
+                        <p>Delivering high-performance websites for diverse clients, handling full-stack development.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-column">
+                    <h3 class="timeline-title">Education</h3>
+
+                    <div class="timeline-item glass-panel">
+                        <div class="timeline-dot"></div>
+                        <h4>Bachelor in Computer Application</h4>
+                        <span class="timeline-date">Pune University</span>
+                        <p>Focused on software engineering principles, core programming paradigms, database management,
+                            and cloud fundamentals.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="contact" id="contact">
+            <div class="contact-content reveal">
+                <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+                <p>Currently available for freelance opportunities or full-time roles. If you have a project that needs
+                    a creative touch, I'd love to hear about it.</p>
+                <div class="contact-socials"
+                    style="display: flex; gap: 1.5rem; justify-content: center; margin-bottom: 2rem; flex-wrap: wrap;">
+                    <a href="mailto:samyakkharat2003@outlook.com" class="project-link">samyakkharat2003@outlook.com</a>
+                    <a href="tel:+917709138858" class="project-link">+91 7709138858</a>
+                    <a href="https://github.com/samya22" target="_blank" class="project-link">GitHub</a>
+                    <a href="https://www.linkedin.com/in/samyakkharat" target="_blank" class="project-link">LinkedIn</a>
+                </div>
+                <form class="contact-form glass-panel">
+                    <div class="input-group">
+                        <input type="text" id="name" required placeholder=" ">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" required placeholder=" ">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" rows="4" required placeholder=" "></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <a href="#" class="logo">Port<span class="gradient-text">folio.</span></a>
+            <div class="social-links">
+                <a href="https://github.com/samya22" target="_blank" aria-label="GitHub">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.2c3-.3 6-1.5 6-8.3a5.4 5.4 0 0 0-1.5-3.9 5.4 5.4 0 0 0-.1-3.8s-1.2-.4-3.9 1.4a13.3 13.3 0 0 0-7 0C6.2 1.5 5 1.9 5 1.9a5.4 5.4 0 0 0-.1 3.8A5.4 5.4 0 0 0 3 9.6c0 6.8 3 8 6 8.3a4.8 4.8 0 0 0-1 3.2v4"></path></svg>
+                </a>
+                <a href="https://www.linkedin.com/in/samyakkharat" target="_blank" aria-label="LinkedIn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </a>
+                <a href="mailto:samyakkharat2003@outlook.com" aria-label="Email">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+                </a>
+            </div>
+            <p>&copy; <span id="year"></span> Samyak Kharat. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="./main.js"></script>
+</body>
+
+</html>
