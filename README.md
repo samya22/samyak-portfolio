@@ -48,7 +48,7 @@ GitHub
 https://github.com/samya22
 
 LinkedIn  
-(Add your LinkedIn profile here)
+https://www.linkedin.com/in/samyakkharat/
 
 ## 📧 Contact
 
