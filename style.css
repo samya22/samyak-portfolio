@@ -878,6 +878,11 @@ footer {
 }
 
 @media (max-width: 768px) {
+    html, body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
     .nav-content {
         padding: 0 1.5rem;
     }
@@ -895,16 +900,47 @@ footer {
     }
 
     .hero {
-        padding: 6rem 1.5rem 4rem;
-        gap: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 5rem 1.5rem 3rem; /* Reduced padding from top and bottom */
+        gap: 1.5rem; /* Reduced gap between text and image container */
+        min-height: auto; /* Prevent taking too much vertical space */
+    }
+
+    .hero-content {
+        order: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 0.5rem; /* Small margin to separate from image */
+    }
+
+    .hero-image-container {
+        order: 2;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 1.5rem; /* ~24px of breathing space from buttons */
     }
 
     .hero-title {
-        font-size: 2.5rem;
-        margin-bottom: 1rem;
+        font-size: 2.2rem; /* Slightly smaller for better balance */
+        margin-bottom: 0.8rem;
     }
 
-    .hero-subtitle, .about-text p, .timeline-item p, .project-info p, .contact-content > p {
+    .hero-subtitle {
+        font-size: 0.95rem;
+        margin-bottom: 1.5rem; /* Reduced margin below subtitle */
+    }
+    
+    .hero-tech-stack {
+        margin-bottom: 1.5rem; /* Reduced margin below tech stack */
+    }
+
+    .about-text p, .timeline-item p, .project-info p, .contact-content > p {
         font-size: 0.95rem;
     }
 
@@ -918,6 +954,7 @@ footer {
     }
 
     .hero-cta {
+        display: flex;
         flex-direction: column;
         width: 100%;
         gap: 1rem;
@@ -940,7 +977,16 @@ footer {
     }
 
     .skills-grid {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 1.5rem;
+    }
+    
+    .skill-category {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
     }
 
     .about-container {
@@ -961,9 +1007,11 @@ footer {
     }
 
     .project-links {
+        display: flex;
         flex-direction: column;
         gap: 1rem;
         align-items: flex-start;
+        width: 100%;
     }
 }
 
